@@ -1,0 +1,122 @@
+
+
+	.container1{
+		width: 100%;
+		height: 60px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: : center;
+}
+		.filho1{
+			width: 10%;
+			height: 45px;
+			background-color: grey;
+}
+		.t1{
+			width: 50%
+			height: 45px;
+			background-color: white;
+		}
+		.filho2{
+			width: 10%;
+			height: 45px;
+			background-color: grey;
+}
+		.t2{
+			width: 50%
+			height: 45px;
+			background-color: white;
+		}
+		.filho3{
+			width: 10%;
+			height: 45px;
+			background-color: grey;
+}
+	.container2{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: : center;
+}
+		.filho4{
+			width: 100%;
+			height: 90px;
+			background-color: blue;
+}
+.avo1{
+	width: 100%;
+	height: 680px;
+	background: grey
+}
+
+.avo2{
+	width: 50%;
+	height:680px;
+	background-color: black;
+
+}
+	.container3{
+		width: 100%;
+		height: 330px;
+		display: flex;
+		flex-direction: row;
+		align-items: : center;
+}
+		.filho5{
+			width: 100%;
+			height: 320px;
+			background-color: green;
+}
+		
+	.container4{
+		width: 100%;
+		height: 350px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: : center;
+		flex-wrap: wrap;
+}
+		.filho6{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+}
+		.filho7{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+}
+		.filho8{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+}
+		.filho9{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+}
+		.filho10{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+}
+		.filho11{
+			width: 30%;
+			height: 170px;
+			background-color: green;
+		}
+.container5{
+	width: 100%;
+	height: 150px;
+	background-color: purple;
+}
+@media(max-width: 700px){
+	.filho1{
+		display:none;
+	}
+}
